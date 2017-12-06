@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  .jumbotron
+    h1 #{title}
+    p Welcome to #{title} Emily Baby!, I love You!
+  div#panel-main(class="panel panel-default")
+    div#buttonRow(class="row")
+      button#btnSubmit(class="btn btn-primary", onclick='onDoggyButtonClick()') Get Doggy Image
+
+  img.img-fuild#ImageContainer(src="https://dog.ceo/api/img/husky/n02110185_10047.jpg", alt="Response image")
+
+  script(type='text/javascript', src='/javascripts/common.js').
+
+
+
+
+
